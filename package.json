@@ -1,0 +1,20 @@
+{
+  "name": "ibw24-workshop",
+  "module": "agent.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "agent": "bun run src/agent.ts"
+  },
+  "dependencies": {
+    "@ankr.com/ankr.js": "0.5.2",
+    "@openrouter/ai-sdk-provider": "0.0.6",
+    "ai": "4.0.11",
+    "viem": "2.21.53"
+  }
+}
